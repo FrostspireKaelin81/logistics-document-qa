@@ -1,0 +1,8 @@
+{
+  "name": "logistics-document-qa",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx src/shipment_decision.test.ts", "start": "tsx src/logistics_question.ts"},
+  "dependencies": {"openai": "^4.0.0", "zod": "^3.0.0"},
+  "devDependencies": {"tsx": "^4.0.0", "typescript": "^5.0.0"}
+}
